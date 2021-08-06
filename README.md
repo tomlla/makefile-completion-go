@@ -1,4 +1,4 @@
-# makefile-completion-go`
+# makefile-completion-go
 
 ## Install
 
