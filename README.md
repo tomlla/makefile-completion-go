@@ -16,3 +16,5 @@ function _makefile_targets_01 {
     curr_arg=${COMP_WORDS[COMP_CWORD]}
     COMPREPLY=( $(compgen -W "${targets[@]}" -- $curr_arg ) );
 }
+complete -F _makefile_targets_01 make
+```
